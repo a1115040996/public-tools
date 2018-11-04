@@ -1,7 +1,7 @@
 {
   "name": "public-tools",
-  "version": "0.0.6",
-  "description": "添加获取url参数方法",
+  "version": "0.0.8",
+  "description": "添加观察者模式、添加获取随机颜色值方法",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
