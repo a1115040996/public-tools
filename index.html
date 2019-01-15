@@ -7,31 +7,6 @@
 	<body>
 		<script src="lib/tools.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
-			//使用观察者模式
-			var ps = new _tools.designMode.Observer();
-				
-			var id1 =  ps.subscribe({
-				name:'hello',
-				callback:function(){
-					console.log('hello world1')
-				}
-			});
-			
-			
-			var id2 =  ps.subscribe({
-				name:'hello',
-				callback:function(){
-					console.log('hello world2')
-				}
-			});
-			
-			
-			
-			ps.publish('hello');
-			ps.unsubscribe(id1);
-			
-			ps.publish('hello');
-			
 		</script>
 	</body>
 </html>
