@@ -14,7 +14,9 @@
 		<script src="lib/forbidRepeatClick.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 		$("#box").click(function(){
-			C(function(){console.log('执行点击事件')});
+			C(function(){
+				// 将点击执行的代码放在这里就可以实现 防止重复执行
+			});
 		})
 		</script>
 	</body>
